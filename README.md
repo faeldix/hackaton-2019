@@ -1,8 +1,12 @@
-# API HEROIS
+# ITERIS HACKATON 2019
+
+**URL BASE**: https://us-central1-hackaton-c9598.cloudfunctions.net
+
+# API HEROIS (/heroes)
 
 contrato da **API**
 
-```
+```json
 {
     "nome": string,
     "nome_verdadeiro": string,
@@ -15,7 +19,7 @@ contrato da **API**
 
 **ex**:
 
-```
+```json
 {
     "nome": "Batman",
     "nome_verdadeiro": "Bruce Wayne",
@@ -26,24 +30,24 @@ contrato da **API**
 }
 ```
 
-# API POKEMON 
+## API POKEMON (/pokemon)
 
 contrato da **API**
 
-```
+```json
 { 
-    nome : string,
-    cardURL: string,
-    card_hdURL: string,
-    tipo: string,
-    subTipo: string,
-    descricao: string
+    "nome": string,
+    "cardURL": string,
+    "card_hdURL": string,
+    "tipo": string,
+    "subTipo": string,
+    "descricao": string
 }
 ```
 
 *ex*:
 
-```
+```json
 {
     "nome": "Hariyama ex",
     "cardURL": "https://images.pokemontcg.io/ex8/100.png",
@@ -54,11 +58,11 @@ contrato da **API**
 }
 ```
 
-# API CERVEJA 
+## API CERVEJA (/beers)
 
 contrato da **API**
 
-```
+```json
 {
     "nome": string,
     "slogan": string,
@@ -70,7 +74,7 @@ contrato da **API**
 
 **ex**:
 
-```
+```json
 {
     "nome": "Buzz",
     "slogan": "A Real Bitter Experience.",
